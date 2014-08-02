@@ -1,4 +1,4 @@
-# advanced-custom-fields-widget
+# ACF Widget
 
 A widget that is able to use content from an ACF field group.
 
@@ -31,7 +31,7 @@ Are you a developer and want to make custom widgets with preset ACF Field groups
 PHP Class for a custom "Spotlight" widget (put it in your theme functions.php)
 
 ```php
-class Spotlight_Widget extends advanced-custom-fields-widget
+class Spotlight_Widget extends ACF_Widget
 {	
 	function __construct()
 	{
