@@ -26,7 +26,7 @@ class ACF_Widget extends WP_Widget
 			"description"   => "Easily create custom widgets using ACF"
 			);
 
-		parent::WP_Widget("ACF_Widget", "ACF Widget", $widget_options);
+		parent::__construct("ACF_Widget", "ACF Widget", $widget_options);
 	}
 
 	function form($instance)
